@@ -1,0 +1,60 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #1e1e2f; /* Deep Blue Background */
+    color: #f4f4f4; /* Light Text Color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #3b3b59; /* Slightly lighter blue for contrast */
+    color: #ffd700; /* Gold Text Color */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+}
+
+/* Section Titles */
+section h2 {
+    font-size: 2rem;
+    color: #ffd700; /* Gold */
+    margin-bottom: 1rem;
+}
+
+/* Section Content */
+section p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+/* Gallery Section */
+#gallery img {
+    width: 100%;
+    max-width: 300px;
+    margin: 0.5rem;
+    border: 2px solid #ffd700; /* Gold Border */
+    display: inline-block;
+}
+
+/* Footer */
+footer {
+    background-color: #3b3b59; /* Slightly lighter blue */
+    color: #ffd700; /* Gold Text Color */
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
