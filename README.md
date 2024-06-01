@@ -21,7 +21,7 @@ Welcome to the Travel Booking System! This application allows users to search fo
 
 ## Demo
 
-You can see a live demo of the application at: [Demo URL]
+You can see a live demo of the application at: [Demo URL](https://vercel.com/jyoti-singhs-projects-920105e7/travel-booking-system/settings)
 
 ## Installation
 
