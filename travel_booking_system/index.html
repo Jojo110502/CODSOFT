@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Travel Booking System</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+    <main>
+        <section id="intro-section">
+            <h2>Welcome to our Travel Booking System</h2>
+            <p>Search and book your travel destinations easily!</p>
+        </section>
+        <section id="search-section">
+            <h3>Search Destinations</h3>
+            <form id="searchForm">
+                <input type="text" id="search" placeholder="Enter destination" required>
+                <button type="submit">Search</button>
+            </form>
+            <ul id="searchResults"></ul>
+        </section>
+        <section id="booking-section">
+            <h3>Your Bookings</h3>
+            <button id="viewBookings">View Bookings</button>
+            <ul id="bookingResults"></ul>
+
+            <h3>Book a Destination</h3>
+            <form id="bookingForm">
+                <input type="text" id="destination" placeholder="Enter destination" required>
+                <input type="date" id="date" required>
+                <button type="submit">Book</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Travel Booking System</p>
+    </footer>
+    <script src="https://js.stripe.com/v3/"></script>
+    <script async src="app.js"></script>
+</body>
+</html>
